@@ -1,0 +1,44 @@
+
+
+<script type="text/javascript">
+google.setOnLoadCallback(showFeed);  
+
+function showFeed() {  
+  var feed = new google.feeds.Feed("http://connect.garmin.com/feed/rss/activities?feedname=Garmin%20Connect%20-%20romheat&owner=romheat");  
+  feed.setNumEntries(10);  
+  
+  feed.load(function(result) {  
+   if (!result.error) {  
+    var container = $("#garmin_feed");  
+    for (var i = 0; i < result.feed.entries.length; i++) {  
+      var entry = result.feed.entries[i]; 
+      var date = formatDateString(entry.publishedDate);   
+      var html = '<li><h2><a href="' + entry.link + '">' + entry.title + '</a>' + '<cite> @ ' + date+ '</cite></h2>';
+      html += entry.content.replace(/width\s*=\s*["|']?\w+["|']?/gi, " ");+"</li>"
+      container.append(html);  
+    }
+    $("#garmin_feed table").width("100%");  
+  } else {  
+    var container = $("#garmin_feed");  
+    container.html = '<li>Can´t get the feed sorry!!!</li>';  
+  }  
+  });
+}
+
+var formatDateString = function(s) {
+  var pad = function(x) { return ((x.length<2) ? "0" : "") + x; }
+    , dt = new Date("" + s), d, m, y;
+  if (dt.getTime()) {
+    d = pad(dt.getDate());
+    m = pad(dt.getMonth()+1);
+    y = dt.getFullYear();
+    return [d, m, y].join('/');
+  }
+  return null;
+};
+
+</script>
+
+
+<div id="garmin_feed">
+</div>

@@ -1,0 +1,5 @@
+// This File is imported last, and will override other styles in the cascade
+// Add styles here to make changes without digging in too much
+
+img[alt=image_r] { float: right; margin-right: 15px; }
+img[alt=image_l] { float: left; margin-left: 15px; }
