@@ -1,5 +1,16 @@
 // This File is imported last, and will override other styles in the cascade
 // Add styles here to make changes without digging in too much
 
+aside.sidebar {
+    //background: url("/images/background.jpg") repeat scroll left top #303030;
+}
+
+ul p {
+    margin-bottom: 0.5em;
+}
+ul ul {
+	margin-bottom: 1em;
+}
+
 img[alt=image_r] { float: right; margin-right: 15px; }
 img[alt=image_l] { float: left; margin-left: 15px; }

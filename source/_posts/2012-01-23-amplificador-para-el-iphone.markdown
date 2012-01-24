@@ -1,11 +1,10 @@
 ---
 layout: post
 title: "amplificador para el iphone"
-date: 2012-01-23 12:50
+date: 2012-01-23 23:15
 comments: true
 categories: iphone 
 ---
-
 
 A ver que con la que nos esta cayendo .. me hubiera gustado pillarme unos altavoces de esos chulos para el iphone, pero los buenos, los que nos gustan a todos, son los que valen una pasta :-)
 
@@ -17,7 +16,7 @@ Bueno la cosa es que estas navidades vi el cacharrito este de [logitech](http://
 
 ### Al lio
 
-La cosa es que ví un ampli por ebay que costaba solo 16€  (jeje) 
+La cosa es que vi un ampli por ebay que costaba solo 16€  (jeje) 
 
 ![image](https://lh6.googleusercontent.com/-RflqHMdAVd8/Tx1raYYDB5I/AAAAAAAAADo/wTHeee96aNs/s288/ampli_iphone2.jpg)
 
