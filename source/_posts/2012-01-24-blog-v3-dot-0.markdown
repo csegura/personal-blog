@@ -1,0 +1,13 @@
+---
+layout: post
+title: "Blog v3.0"
+date: 2012-01-24 10:02
+comments: true
+categories: 
+---
+
+Nuevo blog, dejo atrás el [anterior](http://oldblog.ideseg.com), que estaba basado en WordPress y me paso a algo un poco más friki [octopress](http://octopress.org/). Por el momento no tengo intenciones de pasar los antiguos artículos que se pueden consultar aquí [oldblog.ideseg.com](http://oldblog.ideseg.com) aunque existe un mágnifico script llamado [exitwp](https://github.com/thomasf/exitwp) de Thomas Frössman, que permite extraer los posts y las imágenes de WordPress, yo lo he hecho y funciona perfectamente. Antes de ejecutarlo hacer una limpieza de los comentarios en WordPress y eliminar el spam.
+
+Está vez en la mudanza he hecho limpieza y no me apetece llevar las maletas nuevas cargadas de cosas viejas, si acaso alguna joyita.
+
+

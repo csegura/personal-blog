@@ -14,3 +14,16 @@ ul ul {
 
 img[alt=image_r] { float: right; margin-right: 15px; }
 img[alt=image_l] { float: left; margin-left: 15px; }
+
+pre {
+  font-size: 11px;
+  line-height: 1em;
+}
+
+
+.highlight, html .gist .gist-file .gist-syntax .gist-highlight {
+.line-numbers {
+   text-align: right;
+   font-size: 11px;
+}
+}
