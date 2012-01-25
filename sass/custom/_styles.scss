@@ -29,10 +29,8 @@ pre {
 }
 
 div#resume {
-	//font: 16px Helvetica, Sans-Serif; line-height: 24px; 
-	background: url(images/noise.jpg); 
 	.clear { clear: both; }
-	#pic { 
+	#resume-pic { 
 		float: right; 
 		margin: -30px 0 0 0; }
 	h1 { margin: 0 0 16px 0; 
@@ -87,8 +85,8 @@ div#resume {
 	a { color: #999; text-decoration: none; border-bottom: 1px dotted #999; }
 	a:hover { border-bottom-style: solid; color: black; }
 	ul { margin: 0 0 32px 17px; }
-	#objective { width: 500px; float: left; }
-	#objective p { font-family: Georgia, Serif; font-style: italic; color: #666; }
+	#resume-info { width: 500px; float: left; }
+	#resume-info p { font-family: Georgia, Serif; font-style: italic; color: #666; }
 	dt { 
 		font-style: italic; 
 		font-weight: bold; 

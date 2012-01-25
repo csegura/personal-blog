@@ -9,7 +9,8 @@ function showFeed() {
   
   feed.load(function(result) {  
    if (!result.error) {  
-    var container = $("#garmin_feed");  
+    var container = $("#garmin_feed"); 
+ 	container.empty();
     for (var i = 0; i < result.feed.entries.length; i++) {  
       var entry = result.feed.entries[i]; 
       var date = formatDateString(entry.publishedDate);   
@@ -41,4 +42,5 @@ var formatDateString = function(s) {
 
 
 <div id="garmin_feed">
+	<li>Loading data...</li>
 </div>
