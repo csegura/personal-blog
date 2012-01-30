@@ -31,18 +31,18 @@ pre {
 article header p.meta {
     position: relative;
 	time {
-    	//color: #DFDFDF;
-		background-color: #EEE;
-		padding-left: 8px;
-		padding-right: 8px;
-	    color: #4B4B4B;
-	    text-shadow: 0 1px #FFFFFF;
-		font-weight: bold;
+		background-color: #E5E5E5;
+	    border-radius: 5px 5px 5px 5px;
+	    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1) inset, 0 -1px 0 #FFFFFF inset, 0 2px 2px rgba(100, 100, 100, 0.1) inset;
+	    line-height: 12px;
+	    padding: 5px 8px;
+	    right: 10px;
+	    top: 10px;
+		float: right;
+		display: block;
 	}
 	a {
 		text-transform: lowercase;
-		float: right;
-		position: absolute
 	}
 }
 
