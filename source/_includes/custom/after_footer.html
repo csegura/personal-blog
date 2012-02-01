@@ -2,9 +2,14 @@
   Add content to be output at the bottom of each page. (You might use this for analytics scripts, for example)
 {% endcomment %}
 <script type="text/javascript">
-    (function() {
-      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-      ga.src = 'http://www.dodocu.net:88/ss.js?code=99';
-      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-    })();
+(function() {
+  var wstat = document.createElement('script');
+  wstat.type = 'text/javascript';
+  wstat.async = true;
+  wstat.id = 'wstat';
+  wstat.setAttribute('code', '9999');
+  wstat.src = '//www.dodocu.net:81/wstat.js';
+  var e = document.getElementsByTagName('script')[0];
+  e.parentNode.insertBefore(wstat, e);
+})();
 </script>
